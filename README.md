@@ -20,7 +20,6 @@ Program to implement the Decision Tree Regressor Model for Predicting the Salary
 Developed by:P.Siva Naga Nithin 
 RegisterNumber:212221240037 
 */
-```
 import pandas as pd
 data=pd.read_csv("Salary.csv")
 data.head()
@@ -44,6 +43,7 @@ mse
 r2= metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
+
 ```
 
 ## Output:
